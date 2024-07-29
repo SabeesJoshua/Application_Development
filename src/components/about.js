@@ -11,8 +11,8 @@ const About = () => {
         <img src={illustration} alt="Illustration" className="about-image" />
         <div className="about-text">
           <h1>About Us</h1>
-          <p>Welcome to <b>WorkForce</b>, where we simplify staff scheduling and management for teams of all sizes. Our platform offers seamless integration and a user-friendly interface designed to streamline your scheduling processes.</p>
-          <p>At <b>WorkForce</b>, we are committed to providing the best scheduling solutions to help your team stay organized and efficient. Learn more about our services and how we can assist you in achieving your goals.</p>
+          <p>Welcome to <b>WorkCrew</b>, where we simplify staff scheduling and management for teams of all sizes. Our platform offers seamless integration and a user-friendly interface designed to streamline your scheduling processes.</p>
+          <p>At <b>WorkCrew</b>, we are committed to providing the best scheduling solutions to help your team stay organized and efficient. Learn more about our services and how we can assist you in achieving your goals.</p>
           <div className="social-icons1">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <Facebook />
