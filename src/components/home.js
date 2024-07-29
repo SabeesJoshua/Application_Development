@@ -33,7 +33,7 @@ const H = () => {
     <div className="home-container">
       <img src={img2} alt="Logo" />
       <div className='c1'>
-        <h1 className='h1'>Effortless Staff Scheduling with <b>WorkForce...</b></h1>
+        <h1 className='h1'>Effortless Staff Scheduling with <b>WorkCrew...</b></h1>
         <h1>Welcome {user ? user.role : 'Guest'}</h1>
         {step === 'selectRole' ? (
           <div>
