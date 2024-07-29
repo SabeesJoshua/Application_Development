@@ -53,7 +53,7 @@ function Navbar(params)
             <nav>
                 <ul className='ul'>
                     <div className='li1'>
-                        <Link to="/" className='nav-title'>WorkForce</Link>
+                        <Link to="/" className='nav-title'>WorkCrew</Link>
                     </div>
                     <li className='li'>
                         <Link to = "/" className='link'>Home</Link>
