@@ -1,0 +1,64 @@
+.hr-dashboard-container {
+    padding: 20px;
+  }
+  
+  .hr-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .hr-header h1 {
+    margin: 0;
+  }
+  
+  .logout-button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .hr-content {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hr-actions button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: 1px solid #000000;
+    background-color: #f0f0f0;
+    color: #000000;
+    cursor: pointer;
+    
+  }
+  .hr-actions button:hover{
+    background-color:  #dad9d9;
+    transition: background-color 0.3s ease;
+    color: #000000;  
+  }
+  
+  .hr-section {
+    margin-top: 20px;
+  }
+  
+  .hr-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .hr-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hr-section ul li {
+    background: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 500px;
+  }
+  

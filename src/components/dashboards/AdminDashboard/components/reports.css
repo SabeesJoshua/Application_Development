@@ -1,0 +1,41 @@
+   .reports-container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reports-container h2 {
+    margin-top: 0;
+  }
+  
+  .reports-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .report-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .report-item h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .report-item button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0056b3;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .report-item button:hover {
+    background-color: #004494;
+  }
+  

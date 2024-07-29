@@ -1,0 +1,14 @@
+.settings-container {
+    padding: 20px;
+  }
+  
+  .settings-container h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .settings-container p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  

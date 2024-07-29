@@ -1,0 +1,25 @@
+body{
+  background-color: rgb(254, 243, 226);
+}
+.tasks-container {
+    padding: 20px;
+    width: 500px;
+    height: auto;
+  }
+  
+  .tasks-container h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .tasks-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .tasks-container ul li {
+    padding: 8px;
+    background: #f0f0f0;
+    margin-bottom: 5px;
+  }
+  

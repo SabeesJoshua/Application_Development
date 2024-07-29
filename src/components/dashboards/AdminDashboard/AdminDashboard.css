@@ -1,0 +1,85 @@
+.admin-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(254, 243, 226);
+    color: #000000;
+  }
+  
+  .admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8d8888a9;
+    color: #000000;
+    padding: 20px;
+  }
+  
+  .admin-header h1 {
+    margin: 0;
+  }
+  
+  .logout-button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: rgb(65, 65, 65);
+  }
+  
+  .admin-content {
+    padding: 20px;
+  }
+  
+  .admin-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .admin-actions button {
+    background-color: #bbbbbba9;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-actions button:hover {
+    background-color:  rgb(77, 76, 76);
+    transition: background-color 0.3s ease;
+    color: #fff;
+
+  }
+  
+  .admin-section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-section h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+  }
+  
+  .admin-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admin-section li {
+    padding: 10px;
+    width: 500px;
+    border-bottom: 1px solid #ddd;
+  }
+  
