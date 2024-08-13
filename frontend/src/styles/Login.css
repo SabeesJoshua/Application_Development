@@ -1,0 +1,175 @@
+.login{
+  margin-top: -1.1%;
+  height: 89vh;
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.login-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FFB6D9; 
+  z-index: -2; 
+}
+
+.login-img {
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  width: 80%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.login-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.845);
+  border-radius: 8px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  padding: 20px;
+  z-index: 1;
+  backdrop-filter: blur(5px);
+  position: absolute;
+  top: 20%;
+  left: 60%;
+}
+
+.login-form {
+  width: 100%;
+  color: #000;
+}
+
+.login-form .title {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.login-form .MuiOutlinedInput-root {
+  margin-bottom: 15px;
+  height: 40px;
+}
+
+#button {
+  margin-top: 10px;
+  background: #FF76CE;
+  box-shadow: none;
+}
+
+.message {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 89vh;
+  background-size: cover;
+  background-color: rgb(254, 243, 226);
+}
+
+.im {
+  padding-right: 50px;
+}
+
+.form {
+  background-color: #ffffff9a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.sig {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.form label {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form input[type="text"]:focus,
+.form input[type="password"]:focus {
+  border-color: #0056b3;
+  outline: none;
+}
+
+.bt {
+  color: white;
+    width: 100%;
+    padding: 7px;
+    background-color: #3b3b3b;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 15px;
+}
+
+.bt:hover {
+  background-color: #4e4e4e;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  text-align: center;
+}
+
+.l {
+  color: #3b3b3b;
+  text-decoration: none;
+}
+
+.l:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.l:last-child {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}

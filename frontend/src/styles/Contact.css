@@ -1,0 +1,74 @@
+   .contact {
+    background-color: rgb(254, 243, 226);
+    padding: 0 20px;
+    padding-top: 20px;
+    height: auto;
+    margin-top: -1.1%;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-info {
+    text-align: center;
+    width: 100%;
+}
+
+.contact-heading {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-description {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cform {
+    background-color: rgba(255, 255, 255, 0.84);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+    box-sizing: border-box;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.contact-form .MuiTextField-root {
+    margin-bottom: 16px;
+    width: 500px;
+}
+
+.button1 {
+    width: 30%;
+    padding: 10px;
+    background-color: #3b3b3b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button1:hover {
+    background-color: #4e4e4e;
+    color: rgb(0, 0, 0);
+}
